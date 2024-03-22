@@ -1,0 +1,218 @@
+<!-- This will run only on Computer-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:1100px)" href="css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=3d|fire|fire-animation|">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="page1.css" rel="stylesheet" type="text/css"/>
+    <title>Welcome to Teddy Voice</title>
+</head>
+<style>
+  .head1{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+  }
+  .head2{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+  .poster{
+    height: 582px;
+    width:"450px";
+        position: relative;
+        display: inline-block;
+    }
+    .poster .img_top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .poster:hover .img_top {
+        display: inline;
+    }
+  div.box {
+    position: relative;
+    animation-name: page1_animation;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes page1_animation {
+    0%   {background-color: palevioletred; }
+    20%  {background-color:rgb(227, 227, 6);}
+    40%  {background-color:rgb(0, 183, 255);}
+    60%  {background-color:rgb(7, 236, 7); }
+    73% {background-color: rgb(185, 183, 183);}
+    80% {background-color: rgb(50, 244, 234);}
+    100% {background-color: rgb(254, 142, 161); }
+  }
+  .blink {
+    animation: blinker 1.2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes blinker {
+    25% {opacity: 20%;}
+  }
+
+  .box img:hover {
+      zoom: 1.2;
+  }
+
+</style>
+<body>
+  <nav id="nav1">
+      <center><b><p class="blink">Shop for 1999 and Get flat 500 CashBack Today</p></b></center>
+  </nav>
+    <nav id="nav2">
+        <div id="welcome">
+            <a href="#s-id1"><img src="img/pic4.png" alt="" height="40px" width="60px"></a>
+        </div>
+        <ul>
+            <li class="item"><a href="#">
+                <div class="dropdown">
+                    <b>Home</b>
+                    <div class="dropdown-content">
+                        <a href="#">Offer</a><a href="#">Sales</a><a href="#">Discounts</a>
+                    </div>
+                </div>
+              </a></li>
+            <li class="item"><a href="#launch">
+                <div class="dropdown">
+                    <b>Features</b>
+                    <div class="dropdown-content">
+                      <a href="#">WaterProof</a><a href="#">Heat Resistance</a><a href="#">More charging capacity</a>
+                    </div>
+                  </div>
+            </a></li>
+            <li class="item"><a href="#s-id1">
+                <div class="dropdown">
+                    <b>Price Range</b>
+                    <div class="dropdown-content">
+                      <a href="#">₹899-₹1999</a><a href="#">₹1999-₹4999</a><a href="#">₹4999-₹9999</a>
+                    </div>
+                  </div>
+            </a></li>
+            <li class="item"><a href="#id-3">
+                <div class="dropdown">
+                    <b>New Launch</b>
+                    <div class="dropdown-content">
+                      <a href="#">Headphone</a><a href="#">Earphone</a>
+                    </div>
+                  </div>
+            </a></li>
+            <li class="item"><a href="#">
+                <div class="dropdown">
+                    <b>All-Products</b>
+                    <div class="dropdown-content">
+                      <a href="#">Headphone</a><a href="#">Bluetooth</a><a href="#">Speaker</a><a href="#">Earphone</a>
+                    </div>
+                  </div>
+            </a></li>
+            <li class="item"><a href="">
+                <div class="dropdown">
+                    <b>Offline Stores</b>
+                    <div class="dropdown-content">
+                      <a href="#">Delhi</a><a href="#">Kolkata</a><a href="#">Mumbai</a><a href="#">Chennai</a>
+                    </div>
+                  </div>
+            </a>
+            </li>
+            <div id="class1">
+                <form action="">
+                    <div id="form-group">
+                        <input type="text" name="name" id="name" placeholder="Search Products">
+                        <button class="btn">Submit</button>                    
+                    </div>
+                </form>
+            </div>
+            <li class="item">
+                <a href=""><i class="material-icons" style="font-size:48px;color:rgb(158, 2, 132)">person</i></a>
+            </li>
+            
+            
+        </ul>
+    </nav>
+    <section id="s-id1">
+        <center><h1><br><b>Welcome To Teddy Voice</b></h1><br></center>
+        <div id="sales">
+          <div class="box">
+              <div class="img/pic1.png"> 
+                  <img src="img/pic1.png" width="440px">
+                  <p>Starting with ₹1199</p>
+              </div>
+          </div>
+
+          <div class="box"> 
+              <img src="img/pic2.png" width="440px">
+              <center><p>Starting with ₹899</p></center>
+          </div>
+          <div class="box"> 
+              <img src="img/pic3.png" alt="" width="440px">
+              <center><p>Starting with ₹2999</p></center>
+          </div>
+        </div>
+      </section>
+      
+      <section id="launch">
+        <h1 class="blink"><b><center>New Launch</center></b></h1>
+        <div id="newLaunchId">
+            <div class="poster">
+                <h1 class="head2">Feel the Music</h1>
+                <p>
+                  <h1>Teddy Voice is Launching </h1>
+                <br><h2 class="head1">Headphone with different colours</h1><br>
+                  <h3>At Affordable Price</h3>
+                <h3>Features:</h3>
+                <h5>
+                  <li>Sound Quality is good</li><li>Noise Cancellation</li><li>Amazing Styles</li><li>Long term Battery</li>
+                </h5>
+                </p>
+            </div>
+            
+            <div class="poster">
+              <img src ="img/pic1.png">
+              <img src="img/pic9.png" class="img_top">
+             
+            </div>
+        </div>
+    </section>
+    <section id="id-3">
+      
+      <div class="advertisment">
+        <center><h1 class="font-effect-fire">Different Colours Headphone</h1></center>
+        <img src="img/pic8.png" alt="" height="340px" width="340px">
+        <img src="img/pic5.png" alt="" height="340px" width="340px">
+        <img src="img/pic3.png" alt="" height="340px" width="340px">
+        <img src="img/pic6.png" alt="" height="340px" width="340px">
+        <img src="img/pic10.png" alt="" height="340px" width="340px">
+        <img src="img/pic9.png" alt="" height="340px" width="340px">
+        <img src="img/pic2.png" alt="" height="340px" width="340px">
+      </div>
+    </section>
+    <section id="id-4">
+      <div id="i1">
+        <div class="c1">
+          <img src="img/pic4.png" height="680px" width="690px">
+          <div class="c2">Teddy Voice</div>
+        </div>
+        <div class="c1">
+          Follow Us on : <br>
+          <a href="#"><i class="fa fa-instagram" style="font-size:48px;color:rgb(251, 96, 163)"></i></a><br>
+          <a href="#"><i class="fa fa-twitter" style="font-size:48px;color:rgb(59, 187, 242)"></i></a><br>
+          <a href="#"><i class="fa fa-youtube" style="font-size:48px;color:rgb(254, 29, 29)"></i></a><br>
+          <a href="#"><i class="fa fa-facebook" style="font-size:48px;color:rgb(92, 190, 232)"></i></a><br>
+          <a href="#"><i class="fa fa-linkedin" style="font-size:48px;color:rgb(16, 120, 164)"></i></a>
+        </div>
+      </div>
+    </section>
+    
+</body>
+</html>
