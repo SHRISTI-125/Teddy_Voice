@@ -1,6 +1,5 @@
-#<b>Landing Page</b><br>
-<hr style="height:1px;border-width:0;color:black">
-<b>This is a landing page frontend of a hypothetical Website named Teddy Voice.</b>
+#Landing Page
+This is a landing page frontend of a hypothetical Website named Teddy Voice.
 <br>
 <br>
 #Image <br>
