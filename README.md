@@ -1,4 +1,5 @@
 #<b>Landing Page</b><br>
+<hr>
 <b>This is a landing page frontend of a hypothetical Website named Teddy Voice.</b>
 
 <br>
