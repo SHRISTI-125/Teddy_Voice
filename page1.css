@@ -10,7 +10,7 @@
     display: flex;
     align-items: right;
     position:sticky;
-    color:rgb(244, 223, 210);
+    color:rgb(246, 241, 167);
     text-align: right;
     background-color: rgba(193, 1, 193, 0.767);
 }
@@ -126,10 +126,10 @@
 }
 
 #sales .box img{
-    height: 380px;
     display: block;
     margin: auto;
     text-align: center;
+    
 }
 
 .p1 {
